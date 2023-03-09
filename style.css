@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.2;
 }
 
 ul {
@@ -17,19 +18,24 @@ a {
     color: inherit;
 }
 
+.header, .top, .middle, .quotes, .invite, .footer {
+    padding: 0 128px;
+}
+
 .header, .top, .footer {
     background-color: #1F2937;
+    color: #F9FAF8
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-
+.top-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
-img {
-    max-width: 100px;
+.top-text p,
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 nav.navbar {
@@ -49,4 +55,19 @@ li {
 
 .logo {
     width: 150px;
+}
+
+#hero-img {
+    max-width: 450px;
+}
+
+.top {
+    display: flex;
+    padding: 60px 128px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.top-text {
+    width: 450px;
 }
