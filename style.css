@@ -18,6 +18,10 @@ a {
     color: inherit;
 }
 
+h2 {
+    text-align: center;
+}
+
 .header, .top, .middle, .quotes, .invite, .footer {
     padding: 0 128px;
 }
@@ -71,3 +75,33 @@ li {
 .top-text {
     width: 450px;
 }
+
+.middle {
+    padding: 20px 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team {
+    width: 200px;
+    max-height: 200px;
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+.team-img {
+    display: block;
+    max-height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
