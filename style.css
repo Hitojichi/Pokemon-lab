@@ -1,16 +1,5 @@
-*,
-html,
-body{
-    margin: 0;
-    padding: 0;
+html {
     box-sizing: border-box;
-    line-height: 1.2;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
 }
 
 a {
@@ -18,90 +7,17 @@ a {
     color: inherit;
 }
 
-h2 {
-    text-align: center;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #008DD5;
+    color: #F7DAD9;
 }
 
-.header, .top, .middle, .quotes, .invite, .footer {
-    padding: 0 128px;
+.navbar{
+    display: inline-flex;
+    color: #F7DAD9;
 }
 
-.header, .top, .footer {
-    background-color: #1F2937;
-    color: #F9FAF8
+img {
+    max-width: 200px;
 }
-
-.top-text h1 {
-    font-size: 48px;
-    font-weight: bolder;
-}
-
-.top-text p,
-.link {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-nav.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-}
-
-ul {
-    display: flex;
-}
-
-li {
-    padding: 12px;
-}
-
-.logo {
-    width: 150px;
-}
-
-#hero-img {
-    max-width: 450px;
-}
-
-.top {
-    display: flex;
-    padding: 60px 128px;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.top-text {
-    width: 450px;
-}
-
-.middle {
-    padding: 20px 128px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.team-div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.team {
-    width: 200px;
-    max-height: 200px;
-    text-align: center;
-    margin: 20px;
-    border: 2px solid #3882f6;
-    border-radius: 5px;
-}
-
-.team-img {
-    display: block;
-    max-height: 200px;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
